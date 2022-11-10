@@ -3,7 +3,7 @@
 
 ### `김영한 팬클럽`
 > 2022.11.09 ~ 
-  - <a href="https://www.notion.so/a1c5a703fef5452eaf361de6e3bc58dc">김영한 팬클럽 스터디 기록 노션</a>
+  - <a href="https://www.notion.so/a1c5a703fef5452eaf361de6e3bc58dc">김영한 팬클럽 스터디 노션</a>
   - [Collaborator](#collaborator)
   - [Repository Rule](#repository-rule)
   - [Reference](#reference)
