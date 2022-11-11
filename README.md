@@ -39,7 +39,7 @@
 
 > 1) [Commit Rule Example]
 - **Basic Commit rule** : <br>
-   - '[이름] : Ch1 실습` 
+   -  `[이름] : Ch1 실습` 
    - (ex) `[지영] : Ch3 실습` 
    
  <br>
