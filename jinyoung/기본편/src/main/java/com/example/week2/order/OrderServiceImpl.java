@@ -1,0 +1,27 @@
+package com.example.week2.order;
+
+import com.example.week2.discount.DiscountPolicy;
+import com.example.week2.discount.FixDiscountPolicy;
+import com.example.week2.member.Member;
+import com.example.week2.member.MemberRepository;
+import com.example.week2.member.MemoryMemberRepository;
+
+public class OrderServiceImpl implements OrderService{
+
+    public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
+        this.memberRepository = memberRepository;
+        this.discountPolicy = discountPolicy;
+    }
+
+    private final MemberRepository memberRepository;
+    private final DiscountPolicy discountPolicy;
+
+
+    @Override
+    public Order createOrder(Long memberId, String itemName, int itemPrice) {
+        Member member = memberRepository.findById(memberId);
+        int discountPrice = discountPolicy.discount(member, itemPrice);
+
+        return new Order(memberId, itemName, itemPrice, discountPrice);
+    }
+}
