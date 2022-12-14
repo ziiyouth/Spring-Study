@@ -1,10 +1,8 @@
 package com.example.week2.order;
 
 import com.example.week2.discount.DiscountPolicy;
-import com.example.week2.discount.FixDiscountPolicy;
 import com.example.week2.member.Member;
 import com.example.week2.member.MemberRepository;
-import com.example.week2.member.MemoryMemberRepository;
 
 public class OrderServiceImpl implements OrderService{
 

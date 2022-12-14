@@ -1,6 +1,8 @@
 package com.example.week2.discount;
 import com.example.week2.member.Grade;
 import com.example.week2.member.Member;
+
+
 public class RateDiscountPolicy implements DiscountPolicy {
     private int discountPercent = 10; //10% 할인
     @Override
