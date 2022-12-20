@@ -2,6 +2,7 @@ package com.example.week2.discount;
 
 import com.example.week2.member.Member;
 
+
 public interface DiscountPolicy {
     /**
      *
