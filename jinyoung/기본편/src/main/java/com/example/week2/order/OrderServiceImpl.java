@@ -1,23 +1,33 @@
 package com.example.week2.order;
 
+import com.example.week2.annotation.MainDiscountPolicy;
 import com.example.week2.discount.DiscountPolicy;
 import com.example.week2.member.Member;
 import com.example.week2.member.MemberRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 public class OrderServiceImpl implements OrderService{
 
-    @Autowired
-    public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
+
+    private final MemberRepository memberRepository;
+
+    private final DiscountPolicy discountPolicy;
+
+    public OrderServiceImpl(MemberRepository memberRepository, @MainDiscountPolicy DiscountPolicy discountPolicy) {
         this.memberRepository = memberRepository;
         this.discountPolicy = discountPolicy;
     }
 
-    private final MemberRepository memberRepository;
-    private final DiscountPolicy discountPolicy;
-
+//    @Autowired
+//    public void setMemberRepository(MemberRepository memberRepository) {
+//        this.memberRepository = memberRepository;
+//    }
+//
+//    @Autowired
+//    public void setDiscountPolicy(DiscountPolicy discountPolicy) {
+//        this.discountPolicy = discountPolicy;
+//    }
 
     @Override
     public Order createOrder(Long memberId, String itemName, int itemPrice) {
