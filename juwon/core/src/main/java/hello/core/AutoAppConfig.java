@@ -11,8 +11,20 @@ import static org.springframework.context.annotation.ComponentScan.*;
 
 public class AutoAppConfig {
 
+
+
+    /**
+    @Bean
+    OrderService orderService(MemberRepository memberRepoisitory, DiscountPolicy
+            discountPolicy) {
+        new OrderServiceImpl(memberRepository, discountPolicy)
+    }
+     */
+
+    /**
     @Bean(name = "memoryMemberRepository")
     public MemberRepository memberRepository() {
         return new MemoryMemberRepository();
     }
+    */
 }
