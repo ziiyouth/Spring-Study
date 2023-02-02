@@ -52,6 +52,7 @@ public class FrontControllerServletV4 extends HttpServlet {
  }
 
  private MyView viewResolver(String viewName) {
+
         return new MyView("/WEB-INF/views/" + viewName + ".jsp");
     }
 }
