@@ -15,7 +15,9 @@
 - <a href="https://www.inflearn.com/course/http-%EC%9B%B9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/dashboard">[모든 개발자를 위한 HTTP 웹 기본 지식]</a>
   - (1/6 ~ 1/11 완료) ☑
 - <a href="https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-mvc-1/dashboard">[스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술]</a>
-  - (1/12 ~ 진행중)
+  - (1/12 ~ 2/9 완료) ☑
+- <a href="https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-mvc-2/dashboard">[스프링 MVC 2편 - 백엔드 웹 개발 핵심 기술]</a>
+  - (2/10 ~ 진행중)
 <p align="center">
   <img src="https://t1.daumcdn.net/cfile/tistory/9941A1385B99240D2E" alt="coding" width="150px" />
 	
